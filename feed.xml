@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>Test blog site</title>
+    <description>This is an awesome description of the site. It will appear in the head meta and teh feed.xml.
 </description>
     <link>http://bes-qsig.github.io/test/</link>
     <atom:link href="http://bes-qsig.github.io/test/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Feb 2015 15:24:56 +0000</pubDate>
-    <lastBuildDate>Fri, 06 Feb 2015 15:24:56 +0000</lastBuildDate>
+    <pubDate>Sat, 07 Feb 2015 12:34:22 +0000</pubDate>
+    <lastBuildDate>Sat, 07 Feb 2015 12:34:22 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>This is my first post!</title>
+        <description>&lt;p&gt;I’m writing this first post to see how to do it.&lt;/p&gt;
+
+&lt;p&gt;Let’s test some features.&lt;/p&gt;
+
+&lt;p&gt;Let’s see what R code looks like:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;kp&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Hello world!&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Let’s see if we can link to scripts in the test repo:
+Click &lt;a href=&quot;https://raw.githubusercontent.com/BES-QSIG/test/master/css/main.scss&quot;&gt;here&lt;/a&gt; to see the main.scss.&lt;/p&gt;
+
+&lt;p&gt;So those two aspects work. The next step will be to find a template that will make the site less of a blog and more of a wiki.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 07 Feb 2015 12:00:00 +0000</pubDate>
+        <link>http://bes-qsig.github.io/test/messaround/2015/02/07/test-post.html</link>
+        <guid isPermaLink="true">http://bes-qsig.github.io/test/messaround/2015/02/07/test-post.html</guid>
+        
+        
+        <category>messaround</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
