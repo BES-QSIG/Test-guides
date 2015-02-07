@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "This is my first post!"
+date:   2015-02-07 12:00:00
+categories: messaround
+---
+I'm writing this first post to see how to do it.
+
+Let's test some features.
+
+Let's see what R code looks like:
+{% highlight R %}
+print('Hello world!')
+{% endhighlight %}
+
+Let's see if we can link to scripts in the test repo:
+Click [here](https://raw.githubusercontent.com/BES-QSIG/test/master/css/main.scss) to see the main.scss.
+
+So those two aspects work. The next step will be to find a template that will make the site less of a blog and more of a wiki.
