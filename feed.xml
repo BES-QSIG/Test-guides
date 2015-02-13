@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Test blog site</title>
-    <description>This is an awesome description of the site. It will appear in the head meta and teh feed.xml.
+    <title>Test site</title>
+    <description>This is an awesome description of the site. It will appear in the head meta and the feed.xml.
 </description>
     <link>http://bes-qsig.github.io/test/</link>
     <atom:link href="http://bes-qsig.github.io/test/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Feb 2015 12:34:22 +0000</pubDate>
-    <lastBuildDate>Sat, 07 Feb 2015 12:34:22 +0000</lastBuildDate>
+    <pubDate>Fri, 13 Feb 2015 16:55:23 +0000</pubDate>
+    <lastBuildDate>Fri, 13 Feb 2015 16:55:23 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>GIS databases</title>
+        <description>&lt;p&gt;Here is a first list of websites with free GIS rasters:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://webmap.ornl.gov/wcsdown/index.jsp&quot;&gt;ORNL DAAC (NASA)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.coasterdata.net/&quot;&gt;COASTER data&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://data.geocomm.com/&quot;&gt;GeoCommunity&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.diva-gis.org/Data&quot;&gt;DIVA-GIS data&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gistdata.itos.uga.edu/&quot;&gt;GIST (University of Georgia)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://geodata.grid.unep.ch/#&quot;&gt;UNEP GIS data&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://hydrosheds.cr.usgs.gov/dataavail.php&quot;&gt;USCG HydroSHEDS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://due.esrin.esa.int/globcover/&quot;&gt;GlobCover data&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bioval.jrc.ec.europa.eu/products/gam/download.htm&quot;&gt;Map of accessibility&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 07 Feb 2015 12:00:00 +0000</pubDate>
+        <link>http://bes-qsig.github.io/test/news/2015/02/07/test-simon/</link>
+        <guid isPermaLink="true">http://bes-qsig.github.io/test/news/2015/02/07/test-simon/</guid>
+        
+        
+        <category>messaround</category>
+        
+      </item>
     
       <item>
         <title>This is my first post!</title>
@@ -26,8 +57,8 @@ Click &lt;a href=&quot;https://raw.githubusercontent.com/BES-QSIG/test/master/cs
 &lt;p&gt;So those two aspects work. The next step will be to find a template that will make the site less of a blog and more of a wiki.&lt;/p&gt;
 </description>
         <pubDate>Sat, 07 Feb 2015 12:00:00 +0000</pubDate>
-        <link>http://bes-qsig.github.io/test/messaround/2015/02/07/test-post.html</link>
-        <guid isPermaLink="true">http://bes-qsig.github.io/test/messaround/2015/02/07/test-post.html</guid>
+        <link>http://bes-qsig.github.io/test/news/2015/02/07/test-post/</link>
+        <guid isPermaLink="true">http://bes-qsig.github.io/test/news/2015/02/07/test-post/</guid>
         
         
         <category>messaround</category>
@@ -52,8 +83,8 @@ Click &lt;a href=&quot;https://raw.githubusercontent.com/BES-QSIG/test/master/cs
 
 </description>
         <pubDate>Fri, 06 Feb 2015 15:15:21 +0000</pubDate>
-        <link>http://bes-qsig.github.io/test/jekyll/update/2015/02/06/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://bes-qsig.github.io/test/jekyll/update/2015/02/06/welcome-to-jekyll.html</guid>
+        <link>http://bes-qsig.github.io/test/news/2015/02/06/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://bes-qsig.github.io/test/news/2015/02/06/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
