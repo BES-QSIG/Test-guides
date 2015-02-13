@@ -1,2 +1,6 @@
+# Hidden mac files
+.DS_store
+
+# gh-pages
 _site
 .sass-cache
