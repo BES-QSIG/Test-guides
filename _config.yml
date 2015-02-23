@@ -4,7 +4,7 @@ email: dominic.john.bennett@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This is an awesome description of the site. It will appear in the head meta
   and the feed.xml.
-baseurl: "/test" # the subpath of your site, e.g. /blog/
+baseurl: "/Test-guides" # the subpath of your site, e.g. /blog/
 url: "http://bes-qsig.github.io" # the base hostname & protocol for your site
 relative_permalinks: false
 permalink: /news/:year/:month/:day/:title/
