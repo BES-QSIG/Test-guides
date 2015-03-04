@@ -21,3 +21,6 @@ for (i in 1:length(100)) {
 
 
 Well ^^ that doesn't work. Mustn't be compatible for kramdown. We should really research what markdown best sutis are needs.
+
+
+I want to make a change to this tutorial, I'm writing these lines.
