@@ -11,7 +11,7 @@
 ">
 
   <link rel="stylesheet" href="/Test-guides/css/main.css">
-  <link rel="canonical" href="http://bes-qsig.github.io/Test-guides/docs/example/">
+  <link rel="canonical" href="http://bes-qsig.github.io/Test-guides/docs/example_document/">
   <link rel="alternate" type="application/rss+xml" title="Computational guides for ecologists" href="http://bes-qsig.github.io/Test-guides/feed.xml" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
@@ -68,8 +68,25 @@
       <div class="wrapper">
         <h1 id="example-document">Example Document</h1>
 
-<p>This is an example document demonstrating how to create Markdown files. To see
-the raw text version click <a href="raw">here</a>.</p>
+<p>This is an example document demonstrating how to create Markdown documents for
+hosting on this website. To see the raw text version click <a href="raw">here</a>.</p>
+
+<h2 id="metadata">Metadata</h2>
+
+<p>At the very top of every document metadata is provided to tell the website how
+the page should be set-up, it&#39;s not Markdown, it&#39;s YAML. Don&#39;t worry about how
+it works, all that is required is to provide layout, title and link
+parameters. So for this document the YAML parameters are:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">---
+layout: doc
+title: Example Document
+permalink: /docs/example/
+---
+</code></pre></div>
+<p>Simply copy this and place it at the top of any document you create. The title
+specifies the name of the page that will appear in users&#39; browsers. The link
+is always <code>/docs/[name_of_file]</code>, with the name of the file ignoring the
+extension.</p>
 
 <h2 id="headings">Headings</h2>
 
@@ -200,6 +217,15 @@ print(greeting)
 </code></pre></div>
 <p>For a full list of available languages click
 <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml">here</a>.</p>
+
+<h2 id="further-reading">Further reading</h2>
+
+<p>Other features are also available for Markdown such as tables. You can also
+insert <code>HTML</code> into the Markdown file if you want to do anything complicated.</p>
+
+<p>Here are some useful references:
+* <a href="http://daringfireball.net/projects/markdown/syntax">Official Markdown Syntax</a>
+* <a href="https://help.github.com/articles/github-flavored-markdown/">GitHub Markdown Syntax</a></p>
 
 <!-- References -->
 
