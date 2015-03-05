@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation and Tutorials
+title: A - Z
 permalink: /tutorials/
 ---
 

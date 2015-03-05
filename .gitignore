@@ -2,5 +2,8 @@
 .DS_Store
 
 # gh-pages
-_site
+_site/
 .sass-cache
+
+# docs branch
+_docs/
