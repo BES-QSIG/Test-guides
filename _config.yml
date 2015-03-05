@@ -10,7 +10,10 @@ twitter_username: BES_QE_SIG
 github_username:  BES-QSIG
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink",
+               "strikethrough", "superscript", "with_toc_data"]
 
 cover: /img/cover.jpg
 
