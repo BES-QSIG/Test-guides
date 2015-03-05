@@ -13,13 +13,14 @@
   <link rel="stylesheet" href="/Test-guides/css/main.css">
   <link rel="canonical" href="http://bes-qsig.github.io/Test-guides/docs/example_document/">
   <link rel="alternate" type="application/rss+xml" title="Computational guides for ecologists" href="http://bes-qsig.github.io/Test-guides/feed.xml" />
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/Test-guides/favicon.ico">
 </head>
 
 
   <body>
 
-    <header class="site-header" style="background-image: url(/img/cover.jpg)">
+    <header class="site-header" style="height: 350px; background-image: url(/Test-guides/img/cover.jpg)"
+data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
 
   <div class="wrapper">
 
@@ -45,15 +46,13 @@
           
         
           
-        
-          
           <a class="page-link" href="/Test-guides/news/">News</a>
           
         
           
-        
+          <a class="page-link" href="/Test-guides/index.html">Home</a>
           
-          <a class="page-link" href="/Test-guides/tutorials/">A - Z</a>
+        
           
         
       </div>
@@ -69,7 +68,7 @@
         <h1 id="example-document">Example Document</h1>
 
 <p>This is an example document demonstrating how to create Markdown documents for
-hosting on this website. To see the raw text version click <a href="raw">here</a>.</p>
+hosting on this website. To see the raw text version click <a href="https://raw.githubusercontent.com/BES-QSIG/Test-guides/docs/example_document.md">here</a>.</p>
 
 <h2 id="metadata">Metadata</h2>
 
@@ -80,7 +79,7 @@ parameters. So for this document the YAML parameters are:</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">---
 layout: doc
 title: Example Document
-permalink: /docs/example/
+permalink: /docs/example_document/
 ---
 </code></pre></div>
 <p>Simply copy this and place it at the top of any document you create. The title
@@ -90,8 +89,8 @@ extension.</p>
 
 <h2 id="headings">Headings</h2>
 
-<p>Headings in Markdown are denoted using &#39;#&#39; symbol, subheadings are specified by
-adding an extra &#39;#&#39;. So for example, this Markdown code:</p>
+<p>Headings in Markdown are denoted using <code>#</code> symbol, subheadings are specified by
+adding an extra <code>#</code>. So for example, this Markdown code:</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text"># Heading 1
 Words words words ....
 
@@ -117,7 +116,7 @@ Words words words ....
 
 <h2 id="lists">Lists</h2>
 
-<p>Bullet point lists are created with &#39;*&#39;, numbered lists with numbers. e.g.</p>
+<p>Bullet point lists are created with <code>*</code>, numbered lists with numbers. e.g.</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">* item 1
 * item 2
 
@@ -223,9 +222,12 @@ print(greeting)
 <p>Other features are also available for Markdown such as tables. You can also
 insert <code>HTML</code> into the Markdown file if you want to do anything complicated.</p>
 
-<p>Here are some useful references:
-* <a href="http://daringfireball.net/projects/markdown/syntax">Official Markdown Syntax</a>
-* <a href="https://help.github.com/articles/github-flavored-markdown/">GitHub Markdown Syntax</a></p>
+<p>Here are some useful references:</p>
+
+<ul>
+<li><a href="http://daringfireball.net/projects/markdown/syntax">Official Markdown Syntax</a></li>
+<li><a href="https://help.github.com/articles/github-flavored-markdown/">GitHub Markdown Syntax</a></li>
+</ul>
 
 <!-- References -->
 
