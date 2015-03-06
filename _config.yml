@@ -27,6 +27,7 @@ cover: /img/cover.jpg
 icon: favicon.ico
 
 # 'Collections' settings
+exclude: ['_docs/README.md', '_docs/LICENSE']
 collections:
   docs:
     output: true
