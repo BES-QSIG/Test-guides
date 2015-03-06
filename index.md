@@ -32,4 +32,4 @@ below!
 {% for doc in site.docs %}
 * [{{ doc.title }}]({{ site.baseurl }}/{{ doc.url }})
     * _Status_: {{ doc.status }}
-    * _Author(s)_: {% for author in doc.author %} {{ author }}, {% endfor %} ....{% endfor %}
+    * _Author(s)_: {{ doc.author | join: ', ' }}{% endfor %}
