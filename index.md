@@ -45,7 +45,7 @@ create Markdown files and have read the tutorial _how to contribute_. It may
 also be helpful to have read the tutorial on the website structure.
 
 * [How to contribute]({{ site.baseurl }}/docs/how_to_contribute)
-* [How to write Markdown documents]({{ site.baseurl }}/docs/example_document)
+* [How to write Markdown documents]({{ site.baseurl }}/docs/introduction_to_markdown)
 * [Website structure]({{ site.baseurl }}/docs/website_structure)
 
 Thanks for helping out!
