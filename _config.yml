@@ -9,6 +9,7 @@ description: >
 # URLS
 baseurl: "/test-cge"
 docurl: "https://github.com/BES-QSIG/docs/blob/master/"
+imgurl: "https://raw.githubusercontent.com/BES-QSIG/docs/master/img"
 url: "http://bes-qsig.github.io"
 
 # Permalinks
