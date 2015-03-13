@@ -107,6 +107,12 @@ pre {
     padding-left: 0; }
 
 /**
+ * Message
+ */
+.edit-message {
+  font-size: 12px; }
+
+/**
  * Wrapper
  */
 .wrapper {

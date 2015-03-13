@@ -65,27 +65,35 @@ data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
 
     <div class="page-content">
       <div class="wrapper">
+        <div class="edit-message">
+          Want to change something? Click <a href="https://github.com/BES-QSIG/docs/blob/master/introduction_to_markdown.md">here</a> to edit.
+        </div>
         <h1 id="introduction-to-markdown">Introduction to Markdown</h1>
 
-<p>This is an example document demonstrating how to create Markdown documents for
-hosting on this website. To see the raw text version click <a href="https://raw.githubusercontent.com/BES-QSIG/Test-guides/docs/example_document.md">here</a>.</p>
+<p><em>This tutorial explains the Markdown syntax for tutorials hosted on this
+website. To see the raw text version click <a href="https://raw.githubusercontent.com/BES-QSIG/docs/master/introduction_to_markdown.md">here</a>.</em></p>
 
 <h2 id="metadata">Metadata</h2>
 
 <p>At the very top of every document metadata is provided to tell the website how
 the page should be set-up, it&#39;s called <em>front-matter</em>. Don&#39;t worry about how
-it works, all that is required is to provide layout, title and link
-parameters. So for this document the parameters are:</p>
+it works, all that is required is to provide layout, status, author, title and
+link parameters. So for this document the parameters are:</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">---
 layout: doc
+status: complete
+author: [Dom Bennett]
 title: Introduction to Markdown
 permalink: /docs/introduction_to_markdown/
 ---
 </code></pre></div>
 <p>Simply copy this and place it at the top of any document you create. The title
-specifies the name of the page that will appear in users&#39; browsers. The link
-is always <code>/docs/[name_of_file]</code>, with the name of the file ignoring the
-extension.</p>
+specifies the name of the page that will appear in users&#39; browsers. The
+permalink is always <code>/docs/[name_of_file]</code>, with the name of the file ignoring
+the extension. Currently status can either be &#39;incomplete&#39; or &#39;complete&#39;.
+Also, remember to add your name to the author list if you have contributed
+substantially to any document you edit, e.g. <code>[John Smith,Mary Jane]</code>.
+(In the future this will be automatically generated from the git history.)</p>
 
 <h2 id="headings">Headings</h2>
 
@@ -140,20 +148,23 @@ Words words words ....
 <p>To add URL links use this syntax:</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">[hyperlinked text](url/to/link)
 </code></pre></div>
+<p>To link between different documents on the website use the <code>site.baseurl</code>
+command:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">[hyperlinked text]({{ site.baseurl }}/docs/name_of_page.md)
+</code></pre></div>
 <p>To add images, the syntax is very similar:</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">![name_of_image](url/link/to/image &quot;Hover description of image&quot;)
 </code></pre></div>
 <p>Instead of linking to images elsewhere on the internet, you can link to images
 uploaded to the BES-QSIG&#39;s docs repo. All images are kept in the <code>img/</code> folder.
-These images are available via this URL:</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">https://raw.githubusercontent.com/BES-QSIG/Guides/docs/img/
+Instead of providing a URL, you can use this command:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">{{ site.imgurl }}/name_of_file
 </code></pre></div>
 <p>To make your life easier, it&#39;s best to create references to images rather than
 have chunks of URL in the middle of your text. For example, at the bottom of
 this .md file I&#39;ve created a reference to an image of my cat like so:</p>
 <div class="highlight"><pre><code class="language-text" data-lang="text">&lt;!-- References --&gt;
-[cat]: https://raw.githubusercontent.com/BES-QSIG/Guides/docs/img/mara_cat.jpg
-&quot;This is my cat, she&#39;s called Mara.&quot;
+[cat]: {{ site.imgurl }}/mara_cat.jpg &quot;This is my cat, she&#39;s called Mara.&quot;
 </code></pre></div>
 <p>Note <code>&lt;!--</code> and <code>--&gt;</code> indicate the start and end of comments. To use this
 reference in the text I type:</p>
@@ -162,7 +173,7 @@ reference in the text I type:</p>
 <p>Where the second <code>[cat]</code> is the named reference to the URL link I provide at the
 bottom of the page. So using it gives ....</p>
 
-<p><img src="https://raw.githubusercontent.com/BES-QSIG/test/docs/img/mara_cat.jpg" alt="cat" title="This is my cat, she&#39;s called Mara."></p>
+<p><img src="https://raw.githubusercontent.com/BES-QSIG/docs/master/img/mara_cat.jpg" alt="cat" title="This is my cat, she&#39;s called Mara."></p>
 
 <p><em>Miaow miaow</em>.</p>
 
