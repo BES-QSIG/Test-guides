@@ -58,7 +58,7 @@ data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
         </div>
         <h1 id="how-to-build-an-r-package">How to build an R package</h1>
 
-<p>Building a <code>R</code> package is qui easy but the writing of help files related to each function require basic knowledges of Latex (although the language used to write R documentation files is a little bit different from the official Latex language).
+<p>Building a <code>R</code> package is quite easy but the writing of help files related to each function requires basic knowledges of Latex (although the language used to write R documentation files is a little bit different from the official Latex language).
 This tutorial is a short version. For a more detailed tutorial, see this <a href="http://cran.r-project.org/doc/contrib/Leisch-CreatingPackages.pdf">pdf file</a>.</p>
 
 <p>Building a <code>R</code> package can be performed in four steps:</p>
@@ -76,7 +76,7 @@ This tutorial is a short version. For a more detailed tutorial, see this <a href
 <p>Always in R, use the &quot;package.skeleton&quot; as follows:</p>
 <div class="highlight"><pre><code class="language-R" data-lang="R">package.skeleton<span class="p">(</span>name<span class="o">=</span><span class="s">&quot;name_of_your_package&quot;</span><span class="p">,</span> <span class="kt">list</span><span class="o">=</span><span class="kt">c</span><span class="p">(</span><span class="s">&quot;function1&quot;</span><span class="p">,</span><span class="s">&quot;function2&quot;</span><span class="p">,</span><span class="s">&quot;function3&quot;</span><span class="p">,</span> <span class="kc">...</span><span class="p">))</span>
 </code></pre></div>
-<p>This will generate a new folder in your working directory. This folder somehow corresponds to the first version of your package but it still has to be packed into an archive file.
+<p>This will generate a new folder in your working directory. This folder somehow corresponds to the first version of your package but it still has to be packed into an archive file. 
 Before this step, the documentation file of the package (the &quot;DESCRIPTION&quot; file in the folder) and of the documentation file (&quot;.Rd&quot; files in the subdirectory &quot;man&quot;) each function has to be edited. These files can be edited using a simple text editor but have to be written in a Latex language. Yet, a template has been automatically generated for each file. So, most of the time, the only thing you have to do is to fill the different sections. Specific Latex code is only necessary, for instance, if you want to write mathematical expressions or special characters. Details on how to write such expressions can be found <a href="http://r-pkgs.had.co.nz/man.html">here</a>. For other specific inquiries, Google it using the keywords &quot;R documentation&quot;.</p>
 
 <h3 id="step-3">Step 3</h3>
