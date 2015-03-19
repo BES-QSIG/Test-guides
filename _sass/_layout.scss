@@ -16,7 +16,7 @@
     margin-bottom: 0;
     &,
     &:visited {
-        color: $title-color;
+        color: $front-color;
     }
 }
 
@@ -29,7 +29,7 @@
     }
 
     .page-link {
-        color: $title-color;
+        color: $front-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -106,7 +106,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $title-color;
+    color: $front-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -118,18 +118,13 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(55% - (#{$spacing-unit} / 2));
+    width:         calc(55% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -137,11 +132,6 @@
     .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
         width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
@@ -153,6 +143,23 @@
     }
 }
 
+/**
+ * Header-footer links
+ */
+
+.hf-link {
+    color: $front-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($front-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
 
 
 /**

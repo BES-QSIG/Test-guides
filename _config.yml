@@ -30,6 +30,14 @@ redcarpet:
 cover: /img/cover.jpg
 icon: favicon.ico
 
+# Menu settings
+menu:
+  - title:        About
+    url:          /about
+
+  - title:        News
+    url:          /news
+
 # 'Collections' settings
 exclude: ['_docs/README.md', '_docs/LICENSE']
 collections:
